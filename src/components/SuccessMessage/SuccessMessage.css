@@ -1,0 +1,12 @@
+.successMessage {
+  position: fixed;
+  background-color: rgb(0, 165, 6);
+  color: white;
+  top: 10vh;
+  padding: 1rem;
+  box-sizing: border-box;
+  max-width: 20rem;
+  min-width: 10rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px 1px rgba(0, 165, 5, 0.5);
+}

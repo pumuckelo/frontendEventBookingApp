@@ -1,0 +1,32 @@
+.booking {
+  box-sizing: border-box;
+  width: 80%;
+  padding: 1rem;
+  box-shadow: 0px 2px 5px 1px rgb(220, 220, 220);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 1rem auto;
+  justify-content: space-between;
+}
+
+.booking .event-title {
+  flex-basis: 100%;
+  margin: 0;
+}
+
+.booking .event-description {
+  flex-basis: 100%;
+}
+
+.booking .event-date {
+  flex-basis: 100%;
+}
+
+.booking .booking-date {
+  flex-basis: 50%;
+}
+.booking button.storno-button {
+  justify-self: flex-end;
+}

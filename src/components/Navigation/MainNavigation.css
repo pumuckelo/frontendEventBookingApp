@@ -1,0 +1,84 @@
+.main-nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 3.5rem;
+  background-color: rgb(45, 122, 255);
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding-right: 1rem;
+}
+
+.main-nav_logo h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.main-nav_items {
+  margin: 0;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+.main-nav_items li {
+  text-decoration: none;
+  color: white;
+  margin: 0 1rem;
+  vertical-align: middle;
+}
+
+.main-nav_items a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 0.7rem;
+  transition: color 0.3s;
+}
+
+.main-nav_items a:hover,
+.main-nav_items a:active {
+  color: rgba(211, 211, 211, 0.775);
+}
+
+.main-nav_items a.active {
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.main-nav_items a.active:hover {
+  color: white;
+}
+
+.main-nav_items li.login a {
+  background-color: white;
+  color: rgb(45, 122, 255) !important;
+  padding: 0.5rem 0.7rem;
+  border: none !important;
+  border-radius: 5px;
+}
+
+.main-nav_items li.login a:hover {
+  background-color: rgb(214, 214, 214);
+}
+
+.main-nav_items button {
+  margin: 0;
+  background-color: white;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  border-radius: 5px;
+  color: rgb(45, 122, 255);
+  padding: 0.5rem 0.7rem;
+}
+
+.main-nav_items button:hover {
+  background-color: rgb(228, 228, 228);
+}
